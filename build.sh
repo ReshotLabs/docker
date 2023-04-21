@@ -9,10 +9,10 @@ git clone https://github.com/pelias/docker.git && cd docker
 
 # install pelias script
 # this is the _only_ setup command that should require `sudo`
-sudo ln -s "$(pwd)/pelias" /usr/local/bin/pelias
+ln -s "$(pwd)/pelias" /usr/local/bin/pelias
 
 # cd into the project directory
-cd projects/portland-metro
+cd projects/new-york-city
 
 # create a directory to store Pelias data files
 # see: https://github.com/pelias/docker#variable-data_dir
